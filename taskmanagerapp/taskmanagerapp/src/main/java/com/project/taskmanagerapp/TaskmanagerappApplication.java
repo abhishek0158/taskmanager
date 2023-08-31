@@ -11,11 +11,14 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 @SpringBootApplication
 
 
 public class TaskmanagerappApplication {
+
+
 
 //	@Bean
 //	public WebMvcConfigurer corsConfigurer() {

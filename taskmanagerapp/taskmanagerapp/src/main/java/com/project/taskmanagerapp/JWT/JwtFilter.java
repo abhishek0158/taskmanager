@@ -33,7 +33,8 @@ public class JwtFilter extends OncePerRequestFilter {
             System.out.println("inside dofiler in JwtFilter");
             filterChain.doFilter(httpServletRequest,httpServletResponse);
         }
-        else{
+        else
+        {
             String authorizationHeader= httpServletRequest.getHeader("Authorization");
             System.out.println("auth spring"+authorizationHeader);
             String token=null;
